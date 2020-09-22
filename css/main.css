@@ -34,7 +34,7 @@ a{
     .header-small{
         display: flex;
         justify-content: space-between;
-        min-height: 20px;    
+        min-height: 2.5em;    
     }
     .logo{
         margin-left: 0;
