@@ -1,0 +1,43 @@
+/* About me */
+*{
+    /* height: 100%; */
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    position: relative;
+    top: 0;
+    height: 56px;
+}
+.about{
+    min-height: 600px; 
+    position: relative;
+    top: 0;
+    padding: 1.5em;
+}
+.about-title{
+    font-family: var(--font-first);
+    text-align: left;
+    height: auto;
+    margin-bottom: 1em;
+}
+.about-p,
+.about-que,
+.about-ans{
+    margin-bottom: 1em;
+}
+.about-ul{
+    margin: 0 2em;
+}
+li, p{
+    height: auto;
+}
+/* footer */
+footer{
+    position: relative;
+    margin-bottom: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.5em;
+}

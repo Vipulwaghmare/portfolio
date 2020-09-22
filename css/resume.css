@@ -1,0 +1,11 @@
+.resume{
+    cursor: pointer;
+}
+.resume-div{
+    text-align: center;
+    margin: 0 auto;
+}
+.resume-pdf{
+    width: 100%;
+    min-height: 600px;    
+}

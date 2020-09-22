@@ -1,0 +1,79 @@
+header{
+    position: relative;
+    top: 0;
+    height: 3.5em;
+}
+
+/* Contact Me */
+.contact{
+    min-height: 600px;
+    position: relative;
+    margin: 0 2.5em;
+}
+.contact-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-h3{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    padding-bottom: 0;
+    height: auto;
+}
+.contact-input{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 0.2em;
+    font-weight: 500;
+}
+.input-message{
+    height: 100px;
+    text-align: left;
+}
+.input-name, 
+.input-email{
+    height: 2em;
+    margin-bottom: 1.5em;
+    
+}
+.contact-button{
+    height: auto;
+    width: 100%;
+    text-align: right;
+}
+.contact-submit{
+    height: auto;
+    background-color: #74B9FF;
+    border: 0px;
+    width: 10em;
+    border-radius: 3px;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    color: white;
+}
+.contact-submit:hover{
+    background-color: #2475B0;
+}
+.email{
+    height: auto;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+}
+.email a:hover{
+    color: blueviolet;
+}
+
+/* Footer */
+.footer{
+    position: relative;
+    margin-bottom: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.5em;
+}
