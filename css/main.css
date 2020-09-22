@@ -8,7 +8,7 @@
 
     
     --font-first: 'PT Serif', serif;
-    --font-second: 'Source Sans Pro', sans-serif;
+    --font-second: 'Noto Serif', serif;
     
     --font-size: 1em;
 }
@@ -34,6 +34,7 @@ a{
     .header-small{
         display: flex;
         justify-content: space-between;
+        min-height: 20px;    
     }
     .logo{
         margin-left: 0;
@@ -80,7 +81,7 @@ a{
         background: transparent;
         border: 0;
         cursor: pointer;
-        position: relative;
+        position: absolute;
         right: 1em;
         margin-right: 0;
         top: 1em;
@@ -171,7 +172,6 @@ a{
     justify-content: center;
     align-items: start;
     padding: 2em 0;
-    min-height: 550px;
 }
 .intro-title{
     padding: 0.5em;
@@ -185,9 +185,10 @@ a{
     font-family: var(--font-first);
 }
 .intro-descri{
-    background-color: #0caff0;
+    background-color: #2B2B52;
     text-align: right;
     position: relative;
+    color: white;
     font-family: var(--font-first);
     padding: 0.25em;
 }
@@ -195,7 +196,7 @@ a{
     display: flex;
     font-family: var(--font-first);
     font-weight: bolder;
-    background-color: rgb(105, 130, 145);
+    background-color: #1287A5;
 }
 @media (max-width: 400px){
     .intro{
@@ -237,7 +238,7 @@ a{
     list-style: none;
     color: var(--color-light);
     cursor: pointer;
-    margin: 0 0.5em;
+    margin: 0 auto;
     /* font-family: fantasy; */
 }
 .social-li:hover,
